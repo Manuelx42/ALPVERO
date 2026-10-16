@@ -27,7 +27,7 @@ ALPVERO ist ein Studio (Auftritt als „wir“, nicht als Einzelperson), das Web
 | `index.html` Aufbruch | Gepinnte Bergszene aus vier Ebenen, H1 „Websites, die Ihr Ziel kennen.“, ein Satz, Button | Eindruck, Handlung |
 | Leistung | Fünf Zeilen: Konzept, Handy, Google/Bing, KI, Umzug und Hosting | Was bekommt man |
 | Ablauf | Gepinnte Route mit sechs Stationen und Höhenmeterzähler (der Ablauf aus der Praxis, siehe CLAUDE.md) | Höhepunkt, Transparenz |
-| Referenzen | Seitliche Fahrt über vier Projekte mit Screenshots | Beleg |
+| Referenzen | Seitliche Fahrt über die Referenzprojekte (Reihenfolge: Lammnest, Chalet Morgenlicht, Endlich gut genug, Dachdeckerei Lankes zuletzt) | Beleg |
 | Fragen | Sechs Fragen als aufklappbare Einträge | Einwände |
 | Kontakt (Gipfel) | Schneefläche, „Wohin soll Ihre Website?“, Button, E-Mail | Schluss, hält |
 | `angebot/index.html` | **Versteckte** Preisseite, darunter Referenzen | Angebote zum Verschicken |
