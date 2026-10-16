@@ -20,7 +20,6 @@
 ## Seiten
 - [Startseite](https://www.alpvero.example/): Leistungen, Ablauf, Referenzen, Fragen, Kontakt
 - [Impressum](https://www.alpvero.example/impressum.html)
-- [Datenschutz](https://www.alpvero.example/datenschutz.html)
 
 ## Häufige Fragen
 - Was kann die Seite nicht? Sie ist statisch, ohne eingebauten Shop, Login oder Buchungssystem. Passende Dienste werden angebunden.
