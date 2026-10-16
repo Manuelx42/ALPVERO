@@ -356,3 +356,8 @@ html:not(.no-js) .refs[data-sc-span="5.4"] { height: 540vh; }
   .vergleich tbody th span { display: none; }
   .vergleich tbody th b { font-size: var(--sc-t-base); }
 }
+.vergleich tbody td.wert b { font-family: var(--sc-font-display); font-weight: 800; font-size: var(--sc-t-2xl); line-height: 1; font-variant-numeric: tabular-nums; color: var(--sc-accent); }
+.vergleich tbody td.wert.nein b { color: var(--sc-ink-soft); }
+.haken li:has(.preis-tag) { grid-template-columns: 1.6rem 1fr auto; align-items: start; }
+.haken .preis-tag { margin-top: .2rem; }
+@media (max-width: 640px) { .haken li:has(.preis-tag) { grid-template-columns: 1.6rem 1fr; } .haken li:has(.preis-tag) .preis-tag { grid-column: 2; } }
