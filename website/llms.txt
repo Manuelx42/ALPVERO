@@ -1,0 +1,27 @@
+# ALPVERO
+
+> ALPVERO ist ein Studio für Websites kleiner und mittlerer Unternehmen. Es konzipiert die Seite auf das Ziel des Unternehmens, optimiert sie für Suchmaschinen und KI-Assistenten, zieht die Domain um und richtet das Hosting ein.
+
+## Fakten
+- Angebot: Website-Konzept und -Bau, mobiloptimiert, SEO-Optimierung, KI-Optimierung (lesbar für KI-Werkzeuge), Domainumzug, neues Hosting
+- Zubuchbar: Redaktionswerkzeug zum selbst Ändern einzelner Teile, Landingpages, Blog, Newsletter und weitere Funktionen nach Absprache
+- Erstgespräch: kostenlos und unverbindlich
+- Kontakt: hallo@alpvero.example (Platzhalter, vor Livegang ersetzen)
+- Preise werden im Erstgespräch genannt
+
+## Ablauf
+1. Bestandsaufnahme der bestehenden Seite
+2. Briefing mit Zielen, Struktur und Funktionen
+3. Konzept und Bau
+4. Prüfung (SEO, KI-Lesbarkeit, Handy, Barrierefreiheit, Datenschutz)
+5. Rückmeldung des Kunden in der Vorschau
+6. Umzug und Livegang
+
+## Seiten
+- [Startseite](https://www.alpvero.example/): Leistungen, Ablauf, Referenzen, Fragen, Kontakt
+- [Impressum](https://www.alpvero.example/impressum.html)
+- [Datenschutz](https://www.alpvero.example/datenschutz.html)
+
+## Häufige Fragen
+- Was kann die Seite nicht? Sie ist statisch, ohne eingebauten Shop, Login oder Buchungssystem. Passende Dienste werden angebunden.
+- Muss ich Texte und Bilder liefern? Nein. Vorhandenes wird übernommen, Fehlendes erfragt, nichts erfunden.
