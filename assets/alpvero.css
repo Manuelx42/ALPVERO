@@ -327,3 +327,32 @@ html:not(.no-js) .refs[data-sc-span="5.4"] { height: 540vh; }
 
 /* Der Einstieg ist sofort sichtbar (Greet), nicht erst wenn das Skript läuft */
 .hero__copy[data-sc-cue] { opacity: 1; }
+
+/* Paketvergleich als Tabelle */
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.vergleich { overflow-x: auto; }
+.vergleich table { width: 100%; border-collapse: separate; border-spacing: 0; min-width: 34rem; }
+.vergleich thead th { text-align: left; vertical-align: bottom; padding: var(--sc-5) var(--sc-5) var(--sc-4); width: 24%; font-weight: 400; background: var(--sc-surface); border-radius: var(--sc-r-lg) var(--sc-r-lg) 0 0; }
+.vergleich thead th.b { background: #19242b; box-shadow: inset 0 1px 0 color-mix(in oklab, var(--sc-accent) 55%, transparent); }
+.vergleich .vname { display: block; font-family: var(--sc-font-display); font-weight: 800; font-size: var(--sc-t-lg); letter-spacing: var(--sc-track-snug); }
+.vergleich .betrag { display: block; margin-top: var(--sc-2); font-family: var(--sc-font-display); font-weight: 800; font-size: var(--sc-t-3xl); line-height: 1; letter-spacing: var(--sc-track-tight); font-variant-numeric: tabular-nums; }
+.vergleich tbody th, .vergleich tbody td { padding: var(--sc-4) var(--sc-5); border-top: 1px solid var(--sc-hairline-strong); text-align: left; font-weight: 400; vertical-align: middle; }
+.vergleich tbody th b { display: block; font-weight: 600; font-size: var(--sc-t-lg); }
+.vergleich tbody th span { display: block; color: var(--sc-ink-soft); font-size: var(--sc-t-sm); margin-top: .15rem; max-width: 34rem; }
+.vergleich tbody td { text-align: center; background: var(--sc-surface); }
+.vergleich tbody td:last-child { background: #19242b; }
+.vergleich tbody td svg { width: 1.5rem; height: 1.5rem; color: var(--sc-accent); display: inline-block; }
+.vergleich tbody td.nein { color: var(--sc-ink-soft); font-size: var(--sc-t-xl); }
+.vergleich tbody tr:last-child td:first-of-type { border-bottom-left-radius: var(--sc-r-lg); }
+.vergleich tbody tr:last-child td:last-child { border-bottom-right-radius: var(--sc-r-lg); }
+.vergleich tbody tr:last-child td, .vergleich tbody tr:last-child th { border-bottom: 1px solid var(--sc-hairline-strong); }
+@media (max-width: 640px) {
+  .vergleich thead th, .vergleich tbody th, .vergleich tbody td { padding-inline: var(--sc-3); }
+  .vergleich table { min-width: 0; table-layout: fixed; }
+  .vergleich thead th { width: 29%; padding-inline: var(--sc-2); }
+  .vergleich tbody td { padding-inline: var(--sc-1); }
+  .vergleich .vname { font-size: var(--sc-t-sm); overflow-wrap: anywhere; }
+  .vergleich .betrag { font-size: var(--sc-t-xl); }
+  .vergleich tbody th span { display: none; }
+  .vergleich tbody th b { font-size: var(--sc-t-base); }
+}
