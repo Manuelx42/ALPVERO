@@ -1,3 +1,5 @@
 .DS_Store
 .env
 node_modules/
+# interne Unterlagen bleiben lokal, nicht veröffentlichen
+intern/
